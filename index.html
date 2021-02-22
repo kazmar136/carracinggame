@@ -8,17 +8,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src="p5.play.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
-
-    <script>
-      // Your web app's Firebase configuration
-      //Add here
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-    </script>
-
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyApoGRshS5dUrcBt8jORJpQ1V2fHFrJG8s",
+    authDomain: "class-37-9e8a0.firebaseapp.com",
+    projectId: "class-37-9e8a0",
+    storageBucket: "class-37-9e8a0.appspot.com",
+    messagingSenderId: "806993348101",
+    appId: "1:806993348101:web:a4968e7d9907b43382fe6c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
     <script src="js/Player.js"></script>
     <script src="js/Form.js"></script>
     <script src="js/Game.js"></script>
